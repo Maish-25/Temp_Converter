@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.button-tool-pathgriho {
+    border-radius: 20px;
+    padding:18px;
+    background-color: rgb(81, 251, 112);
+    color: white;
+    font-size: 15px;
+    
+    
+}
+.button-tool-pathgriho:hover {
+    background-color: rgb(96, 253, 143);
+    color: rgb(34, 211, 11);
+}
+.pathgriho-box {
+    width: 60%;
+    height: 32px;
+    border-radius: 15px;
+}
+
+html, body {
+    font-family: "Montserrat", sans-serif;
+    background-color: aliceblue;
+}
+
+header {
+    font-family: "Montserrat", cursive;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.1rem 5rem;
+    background: linear-gradient(180deg, #78f38f 0%, #34fb4b 100%);
+}
+
+.brand a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    list-style-type: none;
+    margin-left: 3rem;
+}
+
+li > a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+
+li::after {
+    content: '';
+    width: 0rem;
+    height: 0.15rem;
+    background-color: #fff;
+    display: block;
+    border-radius: 0.2rem;
+    margin: 0.2rem auto 0 auto;
+    transition: all 0.3s ease-in-out;
+}
+
+li:hover::after {
+    width: 2rem;
+}
+
+body{
+    background-color: rgb(219, 249, 228);
+}
